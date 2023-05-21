@@ -36,12 +36,12 @@
                 let product = num * i;
                 // console.log( num+"x"+i +"="+ product)
                 let row = table.insertRow();
-                let cill1 = row.insertCell();
-                let cill2 = row.insertCell();
-                let cill3 = row.insertCell();
-                cill1.textContent = num;
-                cill2.textContent = i;
-                cill3.textContent = product;
+                let cell1 = row.insertCell();
+                let cell2 = row.insertCell();
+                let cell3 = row.insertCell();
+                cell1.textContent = num;
+                cell2.textContent = i;
+                cell3.textContent = product;
 
             }
             tableContainer.appendChild(table);
